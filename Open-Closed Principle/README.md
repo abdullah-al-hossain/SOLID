@@ -1,2 +1,2 @@
-# SOLID
-This is a repository where I describe the SOLID principle using theories and php codes.
+# Open - Closed Principle
+This is the O of the SOLID. Which stands for Open Closed Principle. 
