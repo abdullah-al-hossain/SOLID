@@ -1,7 +1,5 @@
 <?php
 
-require 'FoodItem.php';
-
 class Juice extends FoodItem 
 {
     function __construct($name) {
