@@ -1,11 +1,6 @@
 <?php
 
-require 'Models/Student.php';
-require 'Models/NormalStudent.php';
-require 'Models/ClassRepresentitive.php';
-require 'Services/ScoreGeneratingService.php';
-require 'Services/OutputService.php';
-require 'Contracts/StudentSetScoreContracts.php';
+include 'dependencies.php';
 
 $normalStudent1 = new NormalStudent('Naim', '1404111', 'A');
 $normalStudent2 = new NormalStudent('Jamil', '1404112', 'A');

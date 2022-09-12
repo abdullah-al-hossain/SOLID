@@ -1,6 +1,6 @@
 <?php
 
-class Student implements StudentSetScoreContracts
+abstract class Student implements StudentSetScoreContracts
 {
     public const CR_BONUS = 10;
     public const NORMAL_BONUS = 0;
