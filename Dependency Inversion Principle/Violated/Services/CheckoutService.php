@@ -14,7 +14,7 @@ class CheckoutService {
         $message = "Thank you, " . $shoppingCart->getCustomer()->getFullName() . " for shopping at our store." .
                 "\n Your order of total BDT " . $shoppingCart->getTotalAmount() . " has been confirmed.";
 
-        $this->mailService->sendSms($message, $shoppingCart->getCustomer()->getEmail());
+        $this->mailService->sendMail($message, $shoppingCart->getCustomer()->getEmail());
     }
 
     public function checkout(ShoppingCart $shoppingCart):void  {
